@@ -24,12 +24,12 @@ for (var i = 0; modeLinks.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == 'dark') {
-    themeStyle.href = 'https://the-devlab.github.io/switch-colour-mode/styles/dark.css';
+    themeStyle.href = 'dark.css';
     modeText.innerHTML = 'Dark Mode';
     darkMode.style = 'display: none;';
     lightMode.style = 'display: inline-block;';
   } else {
-    themeStyle.href = 'https://the-devlab.github.io/switch-colour-mode/styles/light.css';
+    themeStyle.href = 'light.css';
     modeText.innerHTML = 'Light Mode';
     lightMode.style = 'display: none;';
     darkMode.style = 'display: inline-block;';
